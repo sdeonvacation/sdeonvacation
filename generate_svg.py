@@ -111,48 +111,34 @@ def generate_svg(stats: dict) -> str:
   <!-- Title bar text -->
   <text x="425" y="18" fill="#8b949e" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="11" text-anchor="middle">sdeonvacation@github ~ neofetch</text>
 
-  <!-- ASCII Art - Laptop (left column) -->
-  <text x="30" y="58" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557</tspan>
+  <!-- Laptop - Monitor frame -->
+  <rect x="55" y="45" width="200" height="190" rx="4" ry="4" fill="none" stroke="#61afef" stroke-width="2"/>
+  <!-- Laptop - Screen -->
+  <rect x="70" y="58" width="170" height="162" rx="2" ry="2" fill="#161b22" stroke="#98c379" stroke-width="1.5"/>
+  <!-- Laptop - Stand -->
+  <line x1="105" y1="235" x2="85" y2="260" stroke="#61afef" stroke-width="2"/>
+  <line x1="205" y1="235" x2="225" y2="260" stroke="#61afef" stroke-width="2"/>
+  <line x1="85" y1="260" x2="225" y2="260" stroke="#61afef" stroke-width="1.5"/>
+  <!-- Laptop - Keyboard base -->
+  <rect x="55" y="262" width="200" height="16" rx="2" ry="2" fill="none" stroke="#5c6370" stroke-width="1.5"/>
+  <!-- Terminal text inside screen -->
+  <text x="82" y="82" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#e5c07b">~/projects</tspan>
   </text>
-  <text x="30" y="74" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510</tspan><tspan fill="#61afef">  \u2551</tspan>
+  <text x="82" y="100" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2">$</tspan><tspan fill="#abb2bf"> neofetch</tspan>
   </text>
-  <text x="30" y="90" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#e5c07b"> ~/projects </tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
+  <text x="82" y="118" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2">$</tspan><tspan fill="#c678dd"> git push</tspan>
   </text>
-  <text x="30" y="106" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#abb2bf"> neofetch </tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
+  <text x="82" y="136" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2">$</tspan><tspan fill="#e06c75"> mvn deploy</tspan>
   </text>
-  <text x="30" y="122" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#c678dd"> git push </tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
+  <text x="82" y="154" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2">$</tspan><tspan fill="#d19a66"> npm run build</tspan>
   </text>
-  <text x="30" y="138" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#e06c75"> mvn test </tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
-  </text>
-  <text x="30" y="154" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#d19a66"> npm build</tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
-  </text>
-  <text x="30" y="170" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2502</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#98c379"> \u2588</tspan><tspan fill="#0d1117">        </tspan><tspan fill="#98c379">\u2502</tspan><tspan fill="#61afef">  \u2551</tspan>
-  </text>
-  <text x="30" y="186" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u2551</tspan><tspan fill="#98c379">  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518</tspan><tspan fill="#61afef">  \u2551</tspan>
-  </text>
-  <text x="30" y="202" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">    \u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d</tspan>
-  </text>
-  <text x="30" y="218" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">       \u2572\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2572</tspan>
-  </text>
-  <text x="30" y="234" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#61afef">        \u2572\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2572</tspan>
-  </text>
-  <text x="30" y="250" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#5c6370">     \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510</tspan>
-  </text>
-  <text x="30" y="266" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
-    <tspan fill="#5c6370">     \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518</tspan>
+  <text x="82" y="172" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2">$</tspan><tspan fill="#98c379"> &#x2588;</tspan>
   </text>
 
   <!-- Right column - Info -->
