@@ -1,68 +1,131 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="480" viewBox="0 0 850 480">
+  <!-- Background -->
   <rect x="0" y="0" width="850" height="480" rx="8" ry="8" fill="#0d1117"/>
+  <!-- Title bar -->
   <rect x="0" y="0" width="850" height="28" rx="8" ry="8" fill="#161b22"/>
   <rect x="0" y="14" width="850" height="14" fill="#161b22"/>
+  <!-- Traffic lights -->
   <circle cx="16" cy="14" r="5" fill="#ff5f56"/>
   <circle cx="34" cy="14" r="5" fill="#ffbd2e"/>
   <circle cx="52" cy="14" r="5" fill="#27c93f"/>
+  <!-- Title bar text -->
   <text x="425" y="18" fill="#8b949e" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="11" text-anchor="middle">sdeonvacation@github ~ neofetch</text>
-  <foreignObject x="16" y="38" width="818" height="432">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Consolas, Monaco, 'Courier New', monospace; font-size: 13px; line-height: 1.45; color: #abb2bf; padding: 8px;">
-      <div style="display: flex; gap: 20px;">
-        <pre style="margin: 0; color: #56b6c2; font-size: 12px; line-height: 1.35; flex-shrink: 0;"><span style="color: #61afef;">        ╔══════════════════════╗</span>
-<span style="color: #61afef;">        ║</span><span style="color: #0d1117;">░░░░░░░░░░░░░░░░░░░░░░</span><span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">┌──────────────────┐</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #e5c07b;">~/projects</span>        <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #56b6c2;">$</span> <span style="color: #abb2bf;">neofetch</span>        <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #56b6c2;">$</span> <span style="color: #c678dd;">git push</span>        <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #56b6c2;">$</span> <span style="color: #e06c75;">mvn deploy</span>      <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #56b6c2;">$</span> <span style="color: #d19a66;">npm run build</span>   <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">│</span> <span style="color: #56b6c2;">$</span> <span style="color: #98c379;">█</span>              <span style="color: #98c379;">│</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span>  <span style="color: #98c379;">└──────────────────┘</span>  <span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ║</span><span style="color: #0d1117;">░░░░░░░░░░░░░░░░░░░░░░</span><span style="color: #61afef;">║</span>
-<span style="color: #61afef;">        ╚══════════════════════╝</span>
-<span style="color: #61afef;">         ╲══════════════════════╲</span>
-<span style="color: #61afef;">          ╲══════════════════════╲</span>
-<span style="color: #5c6370;">        ┌──────────────────────────┐</span>
-<span style="color: #5c6370;">        │ ◆ ◆ ◆ ◆  ═══════  ◆ ◆ ◆ │</span>
-<span style="color: #5c6370;">        └──────────────────────────┘</span></pre>
-        <div style="padding-top: 2px;">
-          <div style="margin-bottom: 6px;">
-            <span style="color: #56b6c2; font-weight: bold;">sdeonvacation</span><span style="color: #abb2bf;"> ————————————————————————————————————</span>
-          </div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">OS:</span> <span style="color: #5c6370;">.....................</span> <span style="color: #d19a66;">macOS, Linux</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Uptime:</span> <span style="color: #5c6370;">.................</span> <span style="color: #d19a66;">5 years, 9 months, 8 days</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Host:</span> <span style="color: #5c6370;">...................</span> <span style="color: #d19a66;">SAP SE</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Kernel:</span> <span style="color: #5c6370;">.................</span> <span style="color: #d19a66;">Cloud Application Programming</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">IDE:</span> <span style="color: #5c6370;">....................</span> <span style="color: #d19a66;">IntelliJ IDEA, VS Code</span></div>
-          <div style="height: 8px;"></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Languages.Programming:</span> <span style="color: #5c6370;">...</span> <span style="color: #d19a66;">Java, Kotlin, Python</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Languages.Scripting:</span> <span style="color: #5c6370;">.....</span> <span style="color: #d19a66;">TypeScript, Shell</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Languages.Markup:</span> <span style="color: #5c6370;">........</span> <span style="color: #d19a66;">HTML, CSS, YAML</span></div>
-          <div style="height: 8px;"></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Hobbies.Software:</span> <span style="color: #5c6370;">.......</span> <span style="color: #d19a66;">Open Source, Automation</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Hobbies.Other:</span> <span style="color: #5c6370;">...........</span> <span style="color: #d19a66;">Travel, The Office quotes</span></div>
-          <div style="height: 10px;"></div>
-          <div>
-            <span style="color: #e5c07b;">–</span> <span style="color: #e5c07b;">Contact</span><span style="color: #abb2bf;"> ————————————————————————————————————————</span>
-          </div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Email:</span> <span style="color: #5c6370;">...................</span> <span style="color: #d19a66;">mauryasde@gmail.com</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">GitHub:</span> <span style="color: #5c6370;">..................</span> <span style="color: #d19a66;">sdeonvacation</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Company:</span> <span style="color: #5c6370;">.................</span> <span style="color: #d19a66;">SAP SE</span></div>
-          <div style="height: 10px;"></div>
-          <div>
-            <span style="color: #e5c07b;">–</span> <span style="color: #e5c07b;">GitHub Stats</span><span style="color: #abb2bf;"> ———————————————————————————————————</span>
-          </div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Repos:</span> <span style="color: #5c6370;">......</span> <span style="color: #98c379;">32</span>    <span style="color: #5c6370;">|</span> <span style="color: #56b6c2;">Stars:</span> <span style="color: #5c6370;">...........</span> <span style="color: #e5c07b;">140</span></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Followers:</span> <span style="color: #5c6370;">..</span> <span style="color: #98c379;">2</span>     <span style="color: #5c6370;">|</span> <span style="color: #56b6c2;">Following:</span> <span style="color: #5c6370;">.......</span> <span style="color: #e5c07b;">0</span></div>
-          <div style="height: 4px;"></div>
-          <div><span style="color: #98c379;">.</span> <span style="color: #56b6c2;">Bio:</span> <span style="color: #c678dd; font-style: italic;">"Identity theft is not a joke, Jim!"</span></div>
-          <div style="height: 10px;"></div>
-          <div>
-            <span style="color: #e06c75;">██</span><span style="color: #d19a66;">██</span><span style="color: #e5c07b;">██</span><span style="color: #98c379;">██</span><span style="color: #56b6c2;">██</span><span style="color: #61afef;">██</span><span style="color: #c678dd;">██</span><span style="color: #abb2bf;">██</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+
+  <!-- ASCII Art - Laptop (left column) -->
+  <text x="30" y="58" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ╔══════════════════╗</tspan>
+  </text>
+  <text x="30" y="74" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  ┌────────────┐</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="90" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#e5c07b"> ~/projects </tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="106" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#abb2bf"> neofetch </tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="122" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#c678dd"> git push </tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="138" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#e06c75"> mvn test </tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="154" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#d19a66"> npm build</tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="170" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  │</tspan><tspan fill="#56b6c2"> $</tspan><tspan fill="#98c379"> █</tspan><tspan fill="#0d1117">        </tspan><tspan fill="#98c379">│</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="186" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ║</tspan><tspan fill="#98c379">  └────────────┘</tspan><tspan fill="#61afef">  ║</tspan>
+  </text>
+  <text x="30" y="202" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">    ╚══════════════════╝</tspan>
+  </text>
+  <text x="30" y="218" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">       ╲══════════════╲</tspan>
+  </text>
+  <text x="30" y="234" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#61afef">        ╲══════════════╲</tspan>
+  </text>
+  <text x="30" y="250" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#5c6370">     ┌──────────────────┐</tspan>
+  </text>
+  <text x="30" y="266" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="12">
+    <tspan fill="#5c6370">     └──────────────────┘</tspan>
+  </text>
+
+  <!-- Right column - Info -->
+  <text x="380" y="58" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#56b6c2" font-weight="bold">sdeonvacation</tspan><tspan fill="#abb2bf"> ————————————————————————————————</tspan>
+  </text>
+  <!-- System info -->
+  <text x="380" y="78" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> OS:</tspan><tspan fill="#5c6370"> ................... </tspan><tspan fill="#d19a66">macOS, Linux</tspan>
+  </text>
+  <text x="380" y="96" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Uptime:</tspan><tspan fill="#5c6370"> ............... </tspan><tspan fill="#d19a66">5 years, 9 months, 8 days</tspan>
+  </text>
+  <text x="380" y="114" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Host:</tspan><tspan fill="#5c6370"> ................. </tspan><tspan fill="#d19a66">SAP SE</tspan>
+  </text>
+  <text x="380" y="132" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Kernel:</tspan><tspan fill="#5c6370"> ............... </tspan><tspan fill="#d19a66">Cloud Application Programming</tspan>
+  </text>
+  <text x="380" y="150" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> IDE:</tspan><tspan fill="#5c6370"> .................. </tspan><tspan fill="#d19a66">IntelliJ IDEA, VS Code</tspan>
+  </text>
+  <!-- Languages -->
+  <text x="380" y="178" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Languages.Programming:</tspan><tspan fill="#5c6370">  </tspan><tspan fill="#d19a66">Java, Kotlin, Python</tspan>
+  </text>
+  <text x="380" y="196" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Languages.Scripting:</tspan><tspan fill="#5c6370"> .. </tspan><tspan fill="#d19a66">TypeScript, Shell</tspan>
+  </text>
+  <text x="380" y="214" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Languages.Markup:</tspan><tspan fill="#5c6370"> ..... </tspan><tspan fill="#d19a66">HTML, CSS, YAML</tspan>
+  </text>
+  <!-- Hobbies -->
+  <text x="380" y="242" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Hobbies.Software:</tspan><tspan fill="#5c6370"> .... </tspan><tspan fill="#d19a66">Open Source, Automation</tspan>
+  </text>
+  <text x="380" y="260" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Hobbies.Other:</tspan><tspan fill="#5c6370"> ....... </tspan><tspan fill="#d19a66">Travel, The Office quotes</tspan>
+  </text>
+  <!-- Contact section -->
+  <text x="380" y="290" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#e5c07b">– Contact ——————————————————————————————————————</tspan>
+  </text>
+  <text x="380" y="310" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Email:</tspan><tspan fill="#5c6370"> ................ </tspan><tspan fill="#d19a66">mauryasde@gmail.com</tspan>
+  </text>
+  <text x="380" y="328" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> GitHub:</tspan><tspan fill="#5c6370"> ............... </tspan><tspan fill="#d19a66">sdeonvacation</tspan>
+  </text>
+  <text x="380" y="346" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Company:</tspan><tspan fill="#5c6370"> .............. </tspan><tspan fill="#d19a66">SAP SE</tspan>
+  </text>
+  <!-- GitHub Stats section -->
+  <text x="380" y="376" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#e5c07b">– GitHub Stats —————————————————————————————————</tspan>
+  </text>
+  <text x="380" y="396" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Repos:</tspan><tspan fill="#5c6370"> .... </tspan><tspan fill="#98c379">32</tspan><tspan fill="#abb2bf">    </tspan><tspan fill="#5c6370">|</tspan><tspan fill="#56b6c2"> Stars:</tspan><tspan fill="#5c6370"> ......... </tspan><tspan fill="#e5c07b">140</tspan>
+  </text>
+  <text x="380" y="414" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Followers:</tspan><tspan fill="#5c6370"> </tspan><tspan fill="#98c379">2</tspan><tspan fill="#abb2bf">     </tspan><tspan fill="#5c6370">|</tspan><tspan fill="#56b6c2"> Following:</tspan><tspan fill="#5c6370"> ..... </tspan><tspan fill="#e5c07b">0</tspan>
+  </text>
+  <!-- Bio -->
+  <text x="380" y="440" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="13">
+    <tspan fill="#98c379">.</tspan><tspan fill="#56b6c2"> Bio:</tspan><tspan fill="#c678dd"> "Identity theft is not a joke, Jim!"</tspan>
+  </text>
+  <!-- Color palette bar -->
+  <rect x="380" y="454" width="24" height="10" fill="#e06c75"/>
+  <rect x="404" y="454" width="24" height="10" fill="#d19a66"/>
+  <rect x="428" y="454" width="24" height="10" fill="#e5c07b"/>
+  <rect x="452" y="454" width="24" height="10" fill="#98c379"/>
+  <rect x="476" y="454" width="24" height="10" fill="#56b6c2"/>
+  <rect x="500" y="454" width="24" height="10" fill="#61afef"/>
+  <rect x="524" y="454" width="24" height="10" fill="#c678dd"/>
+  <rect x="548" y="454" width="24" height="10" fill="#abb2bf"/>
 </svg>
